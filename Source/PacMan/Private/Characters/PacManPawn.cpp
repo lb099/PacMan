@@ -141,7 +141,7 @@ void APacManPawn::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Ot
 			}
 
 			//if lives = 0 display game over message
-			else if (GameInstance->Check_Lives() == 0) {
+			else if (GameInstance->Check_Lives() == 0 && GameInstance->Check_EatenFood() != 244 ) {
 				GameInstance->Set_Message("Game Over!");
 			}
 		}
