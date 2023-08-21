@@ -1,2 +1,2 @@
 # PacMan
-PacMan Game UE 5.1
+PacMan Game developed using Unreal Engine 5.1
